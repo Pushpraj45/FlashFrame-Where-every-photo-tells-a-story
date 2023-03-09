@@ -1,0 +1,42 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+ 
+.Navbar {
+  width: 100%;
+  position: fixed;
+  background: rgb(0, 0, 0);
+  top: 0;
+  height: 60px;
+  border-bottom: 1px solid var(--border-color);
+  font-family: 'Dancing Script', cursive;
+
+  .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .banner{
+      font-family: 'Dancing Script', cursive;
+      font-size: 35px;
+      color: aliceblue;
+    }
+  }
+
+  .right-side {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    .logout {
+      font-weight: 30px;
+
+      font-size: 2.2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgb(255, 0, 0);
+      font-weight: 1000;
+    }
+  }
+}

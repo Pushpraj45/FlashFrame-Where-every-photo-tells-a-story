@@ -1,0 +1,29 @@
+.Feed {
+  // height: calc(100vh - 60px);
+  margin-top: 60px;
+//   background-color: rgba(0, 0, 0, 0.689);
+
+  .container {
+    display: flex;
+    gap: 20px;
+  }
+  .left-part {
+    flex: 2;
+    overflow-y: auto;
+  }
+  .right-part {
+    width: auto;
+    flex: 1;
+    margin-top: 20px;
+    // background-color: #fff;
+
+  }
+
+  .suggestions {
+    margin-top: 40px;
+  }
+
+  .title {
+    margin-bottom: 12px;
+  }
+}
