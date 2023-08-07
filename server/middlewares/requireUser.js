@@ -29,7 +29,7 @@ module.exports = async (req, res, next) => {
         next();
     } catch (e) {
         console.log(e);
-        // return res.status(401).send("Invalid access key");
+        // return res.status(401).send("Invalid access ke");
         return res.send(error(401, 'Invalid access key'))
     }
 };
